@@ -1,0 +1,34 @@
+			/*h1.heading{padding:0px;margin: 0px 0px 10px 0px;text-align:center;font: 18px Georgia, "Times New Roman", Times, serif;}*/
+			 #chartContainer{
+                width: 78%;
+            } 
+			#sort { margin-left:230px; height:30px;
+    width:220px;}
+	#sort2 { margin-left:130px; height:30px;
+    width:220px;}
+			html, body { margin:0;padding:0;
+               font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+               font-size: medium;
+               }
+            /* width and height of google map */
+            #google_map {width:93%;height: 634px; /*margin-top:0px;margin-left:auto;margin-right:0;*/border: none; ;
+			position: absolute;
+    right: 0px;
+    top: 0px;}
+
+            /* Marker Edit form */
+            .marker-edit label{display:block;margin-bottom: 5px;}
+            .marker-edit label span {width: 100px;float: left;}
+            .marker-edit label input, .marker-edit label select{height: 24px;}
+            .marker-edit label textarea{height: 60px;}
+            .marker-edit label input, .marker-edit label select, .marker-edit label textarea {width: 60%;margin:0px;padding-left: 5px;border: 1px solid #DDD;border-radius: 3px;}
+
+            /* Marker Info Window */
+            h1.marker-heading{color: #585858;margin: 0px;padding: 0px;font: 25px "Trebuchet MS", Arial!important;border-bottom: 1px dotted #D8D8D8;}
+            div.marker-info-win {margin-right: -20px;max-width: 300px;}
+            div.marker-info-win p{padding: 0px;margin: 10px 0px 10px 0;}
+            div.marker-inner-win{padding: 5px;}
+            button.save-marker, button.remove-marker{border: none;background: rgba(0, 0, 0, 0);color: #00F;padding: 0px;text-decoration: underline;margin-right: 10px;cursor: pointer;
+            }
+			
+			
